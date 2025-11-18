@@ -1,5 +1,5 @@
 # Light-O-Rama Audio Packager  
-A Tool Built With Respect
+🎄 Built for Light-O-Rama creators who care about quality, control, and privacy.
 
 ---
 
@@ -152,7 +152,7 @@ Testing: Verified on macOS Sonoma ARM64
 License
 MIT License with one added principle:
 
-This software is free to use and build upon —
+This software is free to use and build upon
 but never exploitative.
 Anything built from it should honor effort, community, and creativity.
 
@@ -207,6 +207,7 @@ You’ll find a new folder on your Desktop named:
 
 SONG_TITLE_LOR_Package/
 
+---
 
 Inside are all timing files, audio, and Superstar-compatible data.
 Ready for Light-O-Rama. No cleanup required.
@@ -231,4 +232,8 @@ This tool never uploads, stores, or tracks anything.
 
 Use only music you have the legal right to sequence.
 
-Creators deserve respect — not extraction.
+Creators deserve respect, not extraction.
+
+---
+
+If this tool helped you, consider sharing it with another creator.
