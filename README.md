@@ -3,6 +3,16 @@ A Tool Built With Respect
 
 ---
 
+👉 **[Download Latest Release](https://github.com/10John01/light-o-rama-audio-packager/releases/latest)**  
+
+---
+
+[![Version](https://img.shields.io/badge/version-1.0.1-green.svg)]()
+[![Platform](https://img.shields.io/badge/platform-macOS%20ARM64-blue.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
+
+---
+
 ### Purpose
 
 This application exists to solve a real problem:
