@@ -46,8 +46,12 @@ Copy code
 3. The first time macOS may quarantine it.  
    Run once with:
 
-```bash
+---
+In your Terminal **(command + space, then type: Terminal and press return)**
+Copy the following code:
+
 xattr -dr com.apple.quarantine "/Applications/Light-O-Rama Audio Packager.app"
+
 After that, it opens normally.
 
 No Python install required.
@@ -56,13 +60,16 @@ No configuration.
 
 Everything needed is already bundled.
 
-How to Use
+---
+
+How to Use:
+
 Open the app.
 
 Choose either:
 
 Download from YouTube
-
+OR
 Process Local MP3/WAV
 
 Wait while the system:
@@ -77,12 +84,21 @@ Creates Superstar grid
 
 When complete, Finder will open the new package automatically.
 
-Platform Support
-Platform	Status
+---
+
+**Platform Support**
+
+Platform	Status:
+
 macOS (Apple Silicon)	Fully Supported
-macOS Intel	Planned
-Windows 10/11	Planned
-Linux	Planned
+
+macOS Intel	- Planned
+
+Windows 10/11 - Planned
+
+Linux	- Planned
+
+---
 
 Source, Security, and Respect
 All audio is processed locally.
@@ -94,6 +110,8 @@ The tool does not check, enforce, or track licensing.
 Responsibility remains with the user.
 
 Process only music you have the legal right to use – not because a policy demands it, but because respecting creators matters.
+
+---
 
 Contributing
 This project will evolve.
@@ -107,12 +125,19 @@ Custom timing profiles
 
 Direct Light-O-Rama import format
 
+---
+
 Pull requests are welcome once contribution rules are formalized.
 
-Status
+---
+
+Status:
+
 Stable Version: 1.0.1
 Build Type: Bundled runtime with portable FFmpeg
 Testing: Verified on macOS Sonoma ARM64
+
+---
 
 License
 MIT License with one added principle:
@@ -121,6 +146,8 @@ This software is free to use and build upon —
 but never exploitative.
 Anything built from it should honor effort, community, and creativity.
 
+---
+
 Final Note
 Tools are more than code.
 They carry intent.
@@ -128,3 +155,68 @@ They carry intent.
 The intent here is simple:
 
 Help creators build something beautiful.
+
+---
+
+Created by John Thomas DuCrest Lock - ChatGPT 5.1 - SYMBEYOND 
+
+---
+
+🍏 Mac (macOS)
+
+Press Command + Space
+
+Type: Terminal
+
+Press Return
+
+When the Terminal window opens:
+
+Drag this file into it:
+
+Run_LOR.command
+
+Press Return to run it.
+
+The first time may take a minute while it sets things up.
+
+---
+
+🪟 Windows - **COMMING SOON**
+
+Find the file:
+
+Run_LOR.bat
+
+Right-click it
+
+Select Run as Administrator
+
+The program will open automatically.
+
+---
+
+Requirements
+
+Most users won’t need to worry about these. The script checks and helps install them automatically.
+
+Requirement	Version	Needed For
+Python	3.10+	Running the tool
+FFmpeg	Any recent version	Audio conversion
+Internet	Optional	Only needed when downloading from YouTube
+When It Finishes
+
+A new folder will appear on your Desktop named:
+
+SONG_TITLE_LOR_Package/
+
+
+Inside is everything ready for use in Light-O-Rama or SuperStar.
+
+---
+
+Troubleshooting
+
+If nothing happens, restart Terminal (Mac) or the PC (Windows).
+
+If the script errors, make sure the folder isn’t inside iCloud or OneDrive — move it to a normal local folder.
